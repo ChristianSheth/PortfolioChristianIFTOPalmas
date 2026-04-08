@@ -1,0 +1,44 @@
+body {background-color: black;}
+
+h1 {color: white;
+    text-align: center;
+    font-size: 400%;}
+
+h2 {color: white;
+    text-align: center;
+    font-style: italic; 
+    text-decoration-line: underlined;
+    font-family: Roboto, sans-serif;}
+
+p {font-family: Roboto, sans-serif;
+   color:white;
+   font-style: italic;
+   font-size: 15px;
+   text-align: left;}
+
+.center {text-align: center;
+	color:white;}
+
+table, th, td {border: 1px solid black;
+  	       text-align:center;}
+
+img {display: block;
+     margin-left: auto;
+     margin-right: auto;
+     height: 300}
+
+li {color:white;
+    font-family: Roboto, sans-serif;
+    font-size: 200%;
+    }
+
+#negoitalico {font-style: italic;
+	      font-weight: bold;
+	      color:white;
+	      font-family: Roboto, sans-serif;
+	      }
+
+a {color:white;
+   font-family: Roboto, sans-serif;
+   text-align:center;}
+  
