@@ -1,0 +1,107 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Aventureiro</title>
+
+    <style>
+
+        body {
+            background-color: white;
+            color: cadetblue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background-color: darkgray;
+            width: 100%;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        form {
+            width: 60%;
+            margin: 30px auto;
+            padding: 20px;
+            border: 2px solid cadetblue;
+            border-radius: 15px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Cadastro de Aventureiro</h1>
+</header>
+
+<form>
+
+    <label>Nome:</label>
+    <input type="text">
+
+    <label>Email:</label>
+    <input type="email">
+
+    <label>Senha:</label>
+    <input type="password">
+
+    <label>Idade:</label>
+    <input type="number">
+
+    <label>Data de Nascimento:</label>
+    <input type="date">
+
+    <label>Classe:</label>
+    <select>
+        <option>Guerreiro</option>
+        <option>Mago</option>
+        <option>Arqueiro</option>
+        <option>Ladino</option>
+    </select>
+
+    <label>Cor favorita:</label>
+    <input type="color">
+
+    <label>Nível de experiência:</label>
+    <input type="range">
+
+    <label>História do personagem:</label>
+    <textarea rows="4"></textarea>
+
+    <label>
+        <input type="checkbox">
+        Aceito os termos da guilda
+    </label>
+
+    <button type="submit">Cadastrar</button>
+
+</form>
+
+</body>
+</html>
