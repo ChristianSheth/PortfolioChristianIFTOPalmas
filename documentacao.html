@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Documentação das Tags</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+
+font-family:"Special Elite",system-ui,-apple-system,sans-serif;
+
+background:radial-gradient(circle,#410000 30%,#1a0000 75%,#050000 100%);
+
+background-attachment:fixed;
+
+color:red;
+
+margin:0;
+
+padding:20px;
+
+overflow-x:hidden;
+}
+
+nav{
+
+text-align:center;
+
+margin-bottom:30px;
+}
+
+nav a{
+
+color:gold;
+
+text-decoration:none;
+
+font-size:120%;
+
+margin:0 15px;
+
+border:1px dashed gold;
+
+padding:5px 15px;
+
+transition:all .3s;
+}
+
+nav a:hover{
+
+background:gold;
+
+color:#410000;
+
+box-shadow:0 0 10px gold;
+}
+
+h1{
+
+text-align:center;
+
+color:#ff0000;
+
+font-size:220%;
+
+text-shadow:2px 2px 4px black;
+}
+
+h2{
+
+text-align:center;
+
+color:gold;
+}
+
+p, li{
+
+font-size:115%;
+
+line-height:1.6;
+}
+
+.bloco{
+
+max-width:900px;
+
+margin:0 auto 30px auto;
+
+padding:25px;
+
+background:#2a0000;
+
+border:2px dashed red;
+
+border-radius:8px;
+
+transition:0.3s;
+}
+
+.bloco:hover{
+
+transform:translateY(-5px);
+
+border-color:gold;
+
+box-shadow:0 0 20px rgba(255,0,0,.4);
+}
+
+code{
+
+background:black;
+
+padding:2px 6px;
+
+border-radius:4px;
+
+color:gold;
+}
+
+ul{
+
+padding-left:25px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<a href="index.html">Início (Conteúdo)</a>
+
+<a href="documentacao.html">Documentação das Tags</a>
+
+</nav>
+
+<h1>📖 DOCUMENTAÇÃO DAS TAGS HTML</h1>
+
+<br>
+
+<div class="bloco">
+
+<h2>🎵 Tag &lt;audio&gt;</h2>
+
+<p>
+
+A tag <code>&lt;audio&gt;</code> é utilizada para inserir arquivos de áudio em uma página HTML.
+
+Ela permite que o usuário reproduza, pause e controle a mídia diretamente pelo navegador.
+
+</p>
+
+<h3>Atributos principais:</h3>
+
+<ul>
+
+<li><b>controls:</b> exibe os botões de reprodução, pausa e volume.</li>
+
+<li><b>autoplay:</b> inicia o áudio automaticamente ao abrir a página.</li>
+
+<li><b>loop:</b> repete o áudio continuamente.</li>
+
+<li><b>muted:</b> inicia o áudio sem som.</li>
+
+<li><b>preload:</b> define como o navegador deve carregar o áudio.</li>
+
+</ul>
+
+<p>
+
+Exemplo:
+
+</p>
+
+<code>
+
+&lt;audio controls&gt;
+
+&lt;source src="musica.mp3" type="audio/mpeg"&gt;
+
+&lt;/audio&gt;
+
+</code>
+
+</div>
+
+<div class="bloco">
+
+<h2>🎥 Tag &lt;video&gt;</h2>
+
+<p>
+
+A tag <code>&lt;video&gt;</code> é utilizada para inserir vídeos em páginas HTML.
+
+Ela permite reproduzir arquivos de vídeo diretamente pelo navegador sem a necessidade de programas externos.
+
+</p>
+
+<h3>Atributos principais:</h3>
+
+<ul>
+
+<li><b>controls:</b> exibe os controles do vídeo.</li>
+
+<li><b>width:</b> define a largura do vídeo.</li>
+
+<li><b>height:</b> define a altura do vídeo.</li>
+
+<li><b>autoplay:</b> inicia o vídeo automaticamente.</li>
+
+<li><b>loop:</b> repete o vídeo continuamente.</li>
+
+<li><b>muted:</b> inicia o vídeo sem som.</li>
+
+<li><b>poster:</b> exibe uma imagem de capa antes da reprodução.</li>
+
+<li><b>preload:</b> define como o navegador deve carregar o vídeo.</li>
+
+</ul>
+
+<p>
+
+Exemplo:
+
+</p>
+
+<code>
+
+&lt;video width="560" controls&gt;
+
+&lt;source src="video.mp4" type="video/mp4"&gt;
+
+&lt;/video&gt;
+
+</code>
+
+</div>
+
+<div class="bloco">
+
+<h2>📝 Conclusão</h2>
+
+<p>
+
+As tags <code>&lt;audio&gt;</code> e <code>&lt;video&gt;</code> são importantes para a criação de páginas multimídia, pois permitem incorporar sons e vídeos de forma simples e interativa.
+
+Esses recursos tornam os sites mais dinâmicos e melhoram a experiência do usuário.
+
+</p>
+
+</div>
+
+<br>
+
+<h1>────────────────</h1>
+
+</body>
+
+</html>
